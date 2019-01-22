@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AAC1F1321F1B9B900EC0917 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC1F1221F1B9B900EC0917 /* AppDelegate.m */; };
+		5AAC1F1621F1B9B900EC0917 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC1F1521F1B9B900EC0917 /* ViewController.m */; };
+		5AAC1F1B21F1B9BC00EC0917 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AAC1F1A21F1B9BC00EC0917 /* Assets.xcassets */; };
+		5AAC1F2121F1B9BC00EC0917 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC1F2021F1B9BC00EC0917 /* main.m */; };
+		5AAC1F2A21F1BBBE00EC0917 /* QiCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC1F2921F1BBBE00EC0917 /* QiCardView.m */; };
+		5AAC1F2D21F1BBCB00EC0917 /* QiCardViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC1F2C21F1BBCB00EC0917 /* QiCardViewCell.m */; };
+		5AAC1F3321F1C2A600EC0917 /* QiCardItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC1F3221F1C2A600EC0917 /* QiCardItemCell.m */; };
+		5AAC1F3921F1C46E00EC0917 /* QiDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC1F3821F1C46E00EC0917 /* QiDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AAC1F0E21F1B9B900EC0917 /* QiCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QiCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AAC1F1121F1B9B900EC0917 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5AAC1F1221F1B9B900EC0917 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5AAC1F1421F1B9B900EC0917 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5AAC1F1521F1B9B900EC0917 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5AAC1F1A21F1B9BC00EC0917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AAC1F1F21F1B9BC00EC0917 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AAC1F2021F1B9BC00EC0917 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AAC1F2821F1BBBE00EC0917 /* QiCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCardView.h; sourceTree = "<group>"; };
+		5AAC1F2921F1BBBE00EC0917 /* QiCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCardView.m; sourceTree = "<group>"; };
+		5AAC1F2B21F1BBCB00EC0917 /* QiCardViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCardViewCell.h; sourceTree = "<group>"; };
+		5AAC1F2C21F1BBCB00EC0917 /* QiCardViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCardViewCell.m; sourceTree = "<group>"; };
+		5AAC1F3121F1C2A600EC0917 /* QiCardItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiCardItemCell.h; sourceTree = "<group>"; };
+		5AAC1F3221F1C2A600EC0917 /* QiCardItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiCardItemCell.m; sourceTree = "<group>"; };
+		5AAC1F3721F1C46E00EC0917 /* QiDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QiDataModel.h; sourceTree = "<group>"; };
+		5AAC1F3821F1C46E00EC0917 /* QiDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QiDataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AAC1F0B21F1B9B900EC0917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AAC1F0521F1B9B900EC0917 = {
+			isa = PBXGroup;
+			children = (
+				5AAC1F1021F1B9B900EC0917 /* QiCardView */,
+				5AAC1F0F21F1B9B900EC0917 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AAC1F0F21F1B9B900EC0917 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC1F0E21F1B9B900EC0917 /* QiCardView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AAC1F1021F1B9B900EC0917 /* QiCardView */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC1F3521F1C3C700EC0917 /* Model */,
+				5AAC1F3421F1C3B800EC0917 /* View */,
+				5AAC1F3621F1C3D000EC0917 /* Controller */,
+				5AAC1F1121F1B9B900EC0917 /* AppDelegate.h */,
+				5AAC1F1221F1B9B900EC0917 /* AppDelegate.m */,
+				5AAC1F1A21F1B9BC00EC0917 /* Assets.xcassets */,
+				5AAC1F1F21F1B9BC00EC0917 /* Info.plist */,
+				5AAC1F2021F1B9BC00EC0917 /* main.m */,
+			);
+			path = QiCardView;
+			sourceTree = "<group>";
+		};
+		5AAC1F2721F1BBA400EC0917 /* QiCardView */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC1F2821F1BBBE00EC0917 /* QiCardView.h */,
+				5AAC1F2921F1BBBE00EC0917 /* QiCardView.m */,
+				5AAC1F2B21F1BBCB00EC0917 /* QiCardViewCell.h */,
+				5AAC1F2C21F1BBCB00EC0917 /* QiCardViewCell.m */,
+			);
+			path = QiCardView;
+			sourceTree = "<group>";
+		};
+		5AAC1F3421F1C3B800EC0917 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC1F2721F1BBA400EC0917 /* QiCardView */,
+				5AAC1F3121F1C2A600EC0917 /* QiCardItemCell.h */,
+				5AAC1F3221F1C2A600EC0917 /* QiCardItemCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5AAC1F3521F1C3C700EC0917 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC1F3721F1C46E00EC0917 /* QiDataModel.h */,
+				5AAC1F3821F1C46E00EC0917 /* QiDataModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5AAC1F3621F1C3D000EC0917 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5AAC1F1421F1B9B900EC0917 /* ViewController.h */,
+				5AAC1F1521F1B9B900EC0917 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AAC1F0D21F1B9B900EC0917 /* QiCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AAC1F2421F1B9BC00EC0917 /* Build configuration list for PBXNativeTarget "QiCardView" */;
+			buildPhases = (
+				5AAC1F0A21F1B9B900EC0917 /* Sources */,
+				5AAC1F0B21F1B9B900EC0917 /* Frameworks */,
+				5AAC1F0C21F1B9B900EC0917 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QiCardView;
+			productName = QiCardView;
+			productReference = 5AAC1F0E21F1B9B900EC0917 /* QiCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AAC1F0621F1B9B900EC0917 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "刘思齐";
+				TargetAttributes = {
+					5AAC1F0D21F1B9B900EC0917 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5AAC1F0921F1B9B900EC0917 /* Build configuration list for PBXProject "QiCardView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AAC1F0521F1B9B900EC0917;
+			productRefGroup = 5AAC1F0F21F1B9B900EC0917 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AAC1F0D21F1B9B900EC0917 /* QiCardView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AAC1F0C21F1B9B900EC0917 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AAC1F1B21F1B9BC00EC0917 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AAC1F0A21F1B9B900EC0917 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AAC1F1621F1B9B900EC0917 /* ViewController.m in Sources */,
+				5AAC1F2121F1B9BC00EC0917 /* main.m in Sources */,
+				5AAC1F3321F1C2A600EC0917 /* QiCardItemCell.m in Sources */,
+				5AAC1F2A21F1BBBE00EC0917 /* QiCardView.m in Sources */,
+				5AAC1F1321F1B9B900EC0917 /* AppDelegate.m in Sources */,
+				5AAC1F3921F1C46E00EC0917 /* QiDataModel.m in Sources */,
+				5AAC1F2D21F1BBCB00EC0917 /* QiCardViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5AAC1F2221F1B9BC00EC0917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AAC1F2321F1B9BC00EC0917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AAC1F2521F1B9BC00EC0917 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = QiCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.www.lsq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5AAC1F2621F1B9BC00EC0917 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8ZX24TX624;
+				INFOPLIST_FILE = QiCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qishare.www.lsq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AAC1F0921F1B9B900EC0917 /* Build configuration list for PBXProject "QiCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAC1F2221F1B9BC00EC0917 /* Debug */,
+				5AAC1F2321F1B9BC00EC0917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AAC1F2421F1B9BC00EC0917 /* Build configuration list for PBXNativeTarget "QiCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AAC1F2521F1B9BC00EC0917 /* Debug */,
+				5AAC1F2621F1B9BC00EC0917 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AAC1F0621F1B9B900EC0917 /* Project object */;
+}
