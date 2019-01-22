@@ -42,7 +42,7 @@
 @property (nonatomic, assign) CGFloat interitemSpacing;//!< 列间距(默认10.0，可自行计算scale比例来做间距)
 @property (nonatomic, assign) CGFloat maxAngle;//!< 侧滑最大角度(默认15°)
 @property (nonatomic, assign) CGFloat maxRemoveDistance;//!< 最大移除距离(默认屏幕的1/4)
-@property (nonatomic, assign) BOOL isAlpha;//!< cardCell是否需要透明度（默认需要）
+@property (nonatomic, assign) BOOL isAlpha;//!< cardCell是否需要透明度（默认YES）
 
 //! 重载数据
 - (void)reloadData;

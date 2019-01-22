@@ -86,7 +86,7 @@ static NSString * const qiCardCellId = @"QiCardCellId";
 }
 
 - (void)cardView:(QiCardView *)cardView didMoveCell:(QiCardViewCell *)cell forMovePoint:(CGPoint)point {
-    //    NSLog(@"move point = %@", NSStringFromCGPoint(point));
+//    NSLog(@"move point = %@", NSStringFromCGPoint(point));
 }
 
 
