@@ -83,6 +83,9 @@ static NSString * const qiCardCellId = @"QiCardCellId";
 - (void)cardView:(QiCardView *)cardView didDisplayCell:(QiCardViewCell *)cell forRowAtIndex:(NSInteger)index {
     
     NSLog(@"didDisplayCell forRowAtIndex = %ld", index);
+    
+    NSLog(@"currentFirstIndex = %ld",cardView.currentFirstIndex);
+    NSLog(@"%ld",index);
 }
 
 - (void)cardView:(QiCardView *)cardView didMoveCell:(QiCardViewCell *)cell forMovePoint:(CGPoint)point {
@@ -152,6 +155,5 @@ static NSString * const qiCardCellId = @"QiCardCellId";
                                                       }]
                    ];
 }
-
 
 @end

@@ -152,14 +152,14 @@ static int moveCount = 0;//!< 记录翻页次数
             cell.transform = transform;
         }
         
-        NSLog(@"i = %ld", (long)i);
-        NSLog(@"currentIndex = %ld", (long)_currentIndex);
-        NSLog(@"moveCount = %d", moveCount);
-        NSLog(@"visibleCells.count = %lu", (unsigned long)self.visibleCells.count);
+//        NSLog(@"i = %ld", (long)i);
+//        NSLog(@"currentIndex = %ld", (long)_currentIndex);
+//        NSLog(@"moveCount = %d", moveCount);
+//        NSLog(@"visibleCells.count = %lu", (unsigned long)self.visibleCells.count);
         
         if (_isAlpha) {
-            BOOL isAlphaNeed = (i == _currentIndex - moveCount);
-            if (isAlphaNeed) {//!< 如果是最上面的Cell就透明度为1
+            BOOL isTopCell = (i == _currentIndex - moveCount);
+            if (isTopCell) {//!< 如果是最上面的Cell就透明度为1
                 cell.alpha = 1.0;
             } else {
                 cell.alpha = (i + 1.9) * 1.0/self.visibleCells.count;
