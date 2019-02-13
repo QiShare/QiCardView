@@ -20,8 +20,8 @@
 
 两个主类分别为`QiCardView`与`QiCardViewCell`。（仿照`UITableView`+`UITableViewCell`的设计）
 
-- **`QiCardView`**下有两个代理：`QiCardViewDataSource`、`QiCardViewDelegate`。（与UITableView的代理方法类似）
-- **`QiCardViewCell`**下有一个代理：`QiCardViewCellDelegate`。（这个代理可以不关心，主要目的是辅助QiCardView里的一些处理逻辑）
+- **`QiCardView`** 下有两个代理：`QiCardViewDataSource`、`QiCardViewDelegate`。（与UITableView的代理方法类似）
+- **`QiCardViewCell`** 下有一个代理：`QiCardViewCellDelegate`。（这个代理可以不关心，主要目的是辅助QiCardView里的一些处理逻辑）
 
 ### 二、如何自定义使用QiCardView？
 
@@ -32,6 +32,7 @@ Cell自定义很简单，只要新建一个类（例如：`QiCardViewItemCell`�
 - 初始化`CardView`方法：
 
 在上Demo之前，先介绍几个可以自定义的配置属性：
+
 属性| 类型 | 介绍
 -----|-----|-----
 visibleCount | NSInteger | 卡片Cell可见数量(默认3)。因为有复用策略，所以即实际创建的Cell数量。
