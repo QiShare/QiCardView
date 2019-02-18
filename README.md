@@ -384,3 +384,5 @@ static int moveCount = 0;//!< 记录翻页次数
 
 - 设计层面：如果将手势操作融入QiCardView中，将QiCardViewCell变成纯粹的Cell，会不会更好。（思考中）
 - 应用层面：目前只支持一个ID的Cell重用，未来渴望拓展成多个ID的Cell都可重用。（PS：因为只存了一个ID，后续考虑存数组，以及对应的Cell缓存池数组。以此猜测UITableView的内部实现。）
+
+QiShare博客原文链接：https://juejin.im/post/5c613dae518825625f3a2af8
